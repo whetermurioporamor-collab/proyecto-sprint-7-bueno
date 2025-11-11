@@ -4,10 +4,11 @@ import plotly.express as px
 
 st.title("Análisis Exploratorio de Datos")
 
-df = pd.DataFrame({
-    'Categoría': ['A', 'B', 'C'],
-    'Valor': [10, 30, 20]
-})
+# Leer los datos del archivo CSV
+car_data = pd.read_csv('notebooks/vehicles_us.csv')
 
-fig = px.bar(df, x='Categoría', y='Valor', title='Gráfico de barras')
+# Crear un histograma utilizando plotly.graph_objects
+# Se crea una figura vacía y luego se añade un rastro de histograma
+fig = px.histogram(car_data, x='odometer', title='Distribución del Odómetro')
+
 st.plotly_chart(fig)
