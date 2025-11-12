@@ -1,1 +1,3 @@
-first readme
+Sin embargo, sería útil incluir en el archivo README información sobre el propósito del proyecto, instrucciones de funcionamiento y uso, y cualquier otra información relevante. Esto facilitaría que otros puedan entender y replicar tu trabajo. Por favor realiza estas modificaciones.
+Proposito: poder aprender acerca de los histogramas usando las herrmientas de visual studio, python, streamlit entre otras.
+informacion relevante: se uso un archivo python para referencia el archivo python que tengo en mi folder del proyecto en github por lo que deberiamos de poder ver el histograma con los botones necesarios
